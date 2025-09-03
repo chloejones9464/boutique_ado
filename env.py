@@ -6,3 +6,6 @@ STRIPE_WH_SECRET = os.environ.setdefault('STRIPE_WH_SECRET', 'whsec_572e4e157e0d
 
 os.environ.setdefault('SECRET_KEY', 'az2ely&*7z!4+fj_)e*zvn9kzn9(z=%ghh(^p$=bc9@2*yw!yn')
 os.environ.setdefault('DATABASE_URL', 'postgresql://neondb_owner:npg_K6TFdCrsN2JQ@ep-aged-dream-a2z326dx.eu-central-1.aws.neon.tech/brush_doll_sheep_906361')
+
+
+os.environ.setdefault('DEVELOPMENT', '1')
